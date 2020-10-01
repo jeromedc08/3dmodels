@@ -1,0 +1,262 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5123,
+         "count" : 33264,
+         "max" : [ 20913 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-0-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 20914,
+         "max" : [ 0.03373619914054871, 0.2341949939727783, -0.01469390001147985 ],
+         "min" : [ -0.02258840017020702, -1.973980008765727e-17, -0.07303240150213242 ],
+         "name" : "buffer-0-group-0-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 250968,
+         "componentType" : 5126,
+         "count" : 20914,
+         "max" : [ 1, 1, 1 ],
+         "min" : [ -1, -1, -1 ],
+         "name" : "buffer-0-group-0-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 20914,
+         "max" : [ 0.6821609735488892, -0.03023960068821907 ],
+         "min" : [ 0.309471994638443, -0.9686959981918335 ],
+         "name" : "buffer-0-group-0-mesh-0-texcoord",
+         "type" : "VEC2"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 66528,
+         "byteOffset" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 501936,
+         "byteOffset" : 66528,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 167312,
+         "byteOffset" : 568464,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 735776,
+         "name" : "buffer-0",
+         "uri" : "JWRed.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "images" : [
+      {
+         "mimeType" : "image/jpeg",
+         "name" : "johnnie_walker_red_label_blended_scotch_whisky_1000ml_1_562x928-diffuse-image",
+         "uri" : "JWRed/johnnie_walker_red_label_blended_scotch_whisky_1000ml_1_562x928.jpg"
+      }
+   ],
+   "materials" : [
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "johnnie_walker_red_label_blended_scotch_whisky_1000ml_1_562x928",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.929412, 0.815686, 0.7411759999999999, 1 ],
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            },
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.9699476628648295
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ 0.005041364545993966, 0.1010963697975319, -0.04327766327187419 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ -0.005041364545993966, -0.1010963697975319, 0.04327766327187419 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            -0.03136564956896855,
+            -0.05091873679007113,
+            -0.001599965023858453,
+            0.9982088550913294
+         ],
+         "translation" : [ -0.02760158336945823, 0.1322575892845111, 0.2696895522965985 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -0.1991097634789859, 0.09955488173949294, 0.09955488173949294 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 0.2011008611137757 ],
+         "translation" : [ -0.1958842110886628, 0.5802596308260661, -0.2449639855826952 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "name" : "johnnie_walker_red_label_blended_scotch_whisky_1000ml_1_562x928-diffuse-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.7490196078431373, 0.2117647058823529, 0.04705882352941176 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "pivot" : [ 0, 0, 0 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ 0.005216650025112915, 0.1780579085985147, -0.04386312446891948 ],
+                  "radius" : 0.1991097634789859,
+                  "stdev" : 0.07244024731404133
+               },
+               "visualCenterPoint" : [ 0.005041364545993966, 0.1010963697975319, -0.04327766327187419 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 0.7490196078431373, 0.2117647058823529, 0.04705882352941176 ]
+            }
+         },
+         "name" : "scene-0",
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "johnnie_walker_red_label_blended_scotch_whisky_1000ml_1_562x928-diffuse-texture",
+         "sampler" : 0,
+         "source" : 0
+      }
+   ]
+}
